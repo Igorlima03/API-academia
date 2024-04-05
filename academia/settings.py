@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1']
 
-CORS_ALLOWED_ORIGINS = 'htpp://127.0.0.1:5500'
+CORS_ALLOWED_ORIGINS = ['htpp://127.0.0.1:5500']
 
 
 # Application definition
