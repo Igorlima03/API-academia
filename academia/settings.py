@@ -25,6 +25,7 @@ SECRET_KEY = 'django-insecure-x_n06x#xmrj#h8ikt%xw_t0gmb*zx91t&visbt85nax#qr888q
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+CSRF_TRUSTED_ORIGINS = ['https://erickgym-x0h6.onrender.com']
 ALLOWED_HOSTS = ['erickgym-x0h6.onrender.com']
 
 CORS_ALLOWED_ORIGINS = ['htpp://127.0.0.1:5500']
